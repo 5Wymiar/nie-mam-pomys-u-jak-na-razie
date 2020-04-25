@@ -1,0 +1,9 @@
+
+git stash - Dodaje zmiany na stos.
+git stash push - jw. ale umo¿liwia dodanie flagi -m [komentarz]
+git stash show (-p —patch) - pokazuje jakie zmiany znajduj¹ siê na stosie
+git stash list - wyœwietla listê zmian od³o¿onych na stos
+git stash pop (apply & drop) - przywraca zmiany ze stosu (i usuwa je z niego)
+git stash drop - usuwa zmiany ze stosu
+git stash apply - przywraca zmiany ze stosu (zostawiaj¹c je jednoczeœnie)
+git stash branch - tworzy nowy branch zawieraj¹cy zmiany z wybranego stosu.
