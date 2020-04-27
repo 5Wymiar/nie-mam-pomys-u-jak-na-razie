@@ -53,7 +53,7 @@
 
 // for (let i = 0; i < cars.length; i++) {
 //    console.log(cars[i]);
-   
+
 // }
 
 
@@ -77,7 +77,7 @@
 // while (i < 5) {
 //    console.log(`Liczba wynosi: ${i}`);
 //    i++ ;
-   
+
 // };
 
 //ĆWICZENIA PĘTLA DO WHILE
@@ -87,7 +87,7 @@
 // do {
 //    console.log(`Przed inkrementacją ${i}`);
 //    i++;
-   
+
 //    console.log(`Po inkrementacją ${i}`);
 // } while (i < 2);
 
@@ -99,7 +99,7 @@
 // for (const number of numbers) {
 
 //    console.log(number * 3 );
-   
+
 // }
 
 
@@ -125,7 +125,7 @@
 
 //    console.log(`X jest równy ${[x]}`);
 //    x = x +2;
-   
+
 // }
 // let x = 20;
 
@@ -134,15 +134,177 @@
 // }while (x > 0 ) 
 //    console.log(`X wynosi ${[x]}`);
 
-const numbers = [5,8,10,23,44];
+// const numbers = [5,8,10,23,44];
 
-for(const number of numbers){
-   if ( number % 2 === 0 ){
-      console.log(`${number}  jest podzielna przez 2`)
-   } else {
-      console.log(`${number}  nie jest podzielna przez 2`)
-   }   
-} 
+// for(const number of numbers){
+//    if ( number % 2 === 0 ){
+//       console.log(`${number}  jest podzielna przez 2`)
+//    } else {
+//       console.log(`${number}  nie jest podzielna przez 2`)
+//    }   
+// } 
+
+//TABLICE 
+
+// const numbers = [1, 2, 3, 4, 5,];
+// console.log(numbers);
+// numbers.unshift(-1,0) // add the ele to begin 
+// console.log(numbers);
+// //
+// const deleted = numbers.shift();
+// console.log(deleted); // deleted sth to begin
+// console.log(numbers);
+// //
+// const colors = ['red', 'pink', 'blue'];
+// console.log(colors);
+// colors.push('black');// add sth to end tab.
+// console.log(colors);
+// const deleted2 = colors.pop();//deleted sth from end tab.
+// FUNCTION WITH TABLE MAP
+
+// const colors = ['blue', 'red', 'white'];
+
+// function upperCase(color) {
+
+//     console.log(color.toUpperCase());
+
+// };
+
+// colors.map(upperCase);
+
+// const nums = [1,2,3,];
+// const letter = ['a', 'b', 'c'];
+
+// const newArray = nums.concat(letter);
+// console.log(newArray);
+
+// const newArray2 = nums.concat(1,2,3);
+// console.log(newArray2);
+
+// const num = [1, 2, 3,];
+// console.log(...num);
+
+// const mainDish = ['garlic bacon', 'hot chicken', 'spicy beef'];
+// const drinks = ['beer', 'lemon tea', 'water for the poor'];
+
+// const menu = [...mainDish,...drinks];
+// console.log(menu);
+
+// Slice and Splice 
+
+const nums = [1, 2, 3, 4, 5, 6, 7, 8];
+const nums2 = nums.slice(2, 5);
+console.log(nums2);
+
+const adres = [23, - 32, 231, 34 ,-234];
+const correctAdres = adres.splice(2,5, 213,2335,2323);
+console.log(correctAdres);
+console.log(adres);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
