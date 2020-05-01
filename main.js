@@ -188,18 +188,34 @@
 // const drinks = ['beer', 'lemon tea', 'water for the poor'];
 
 // const menu = [...mainDish,...drinks];
-// console.log(menu);
+// // console.log(menu);
 
-// Slice and Splice 
+// // Slice and Splice 
 
-const nums = [1, 2, 3, 4, 5, 6, 7, 8];
-const nums2 = nums.slice(2, 5);
-console.log(nums2);
+// const nums = [1, 2, 3, 4, 5, 6, 7, 8];
+// const nums2 = nums.slice(2, 5);
+// console.log(nums2);
 
-const adres = [23, - 32, 231, 34 ,-234];
-const correctAdres = adres.splice(2,5, 213,2335,2323);
-console.log(correctAdres);
-console.log(adres);
+// const adres = [23, - 32, 231, 34 ,-234];
+// const correctAdres = adres.splice(2,5, 213,2335,2323);
+// console.log(correctAdres);
+// console.log(adres);
+
+// const numbers = [1, 3, 4, 6, 7];
+
+// function number(x) {
+//     return x % 2 === 0;
+// };
+
+// console.log(numbers.filter(number));
+
+// const newNumbers = numbers.forEach(x => console.log(x * 2))
+
+const numbers = [1, 2, 4, 6, 8];
+const names = ['klaudia', 'ania', 'asia'];
+
+console.log(names.sort());
+console.log(numbers.reverse());
 
 
 
