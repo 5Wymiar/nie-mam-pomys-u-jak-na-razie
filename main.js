@@ -237,12 +237,18 @@
 // const newSth = sth.concat(...fruits);
 // console.log(newSth);
 
-const fruits = [553, 344, 226];
+// const fruits = [553, 344, 226];
 
-fruits.forEach(el => console.log(el * 5));
+// fruits.forEach(el => console.log(el * 5));
 
+const myFavoriteColor = ['black'];
+myFavoriteColor.unshift('yellow');
+myFavoriteColor.push('green');
 
+for (let i = 0; i < myFavoriteColor.length; i++) {
+    console.log(`Mój ulubiony color: ${myFavoriteColor[i].charAt(0).toUpperCase() + myFavoriteColor[i].slice(1)}`);
 
+};
 
 
 
