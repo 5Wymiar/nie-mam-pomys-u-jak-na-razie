@@ -211,11 +211,40 @@
 
 // const newNumbers = numbers.forEach(x => console.log(x * 2))
 
-const numbers = [1, 2, 4, 6, 8];
-const names = ['klaudia', 'ania', 'asia'];
+// const names = ['klaudia', 'ania', 'asia'];
 
-console.log(names.sort());
-console.log(numbers.reverse());
+// console.log(names.sort());
+// console.log(numbers.reverse());
+
+// const numbers = [1, 2, 4, 6, 8];
+// const newNumbers = numbers;
+
+// numbers.unshift(323);
+// console.log(numbers);
+
+// newNumbers.pop(numbers);
+// console.log(numbers);
+
+// const sth = [];
+
+// sth.push(1,2,3,4,6);
+// console.log(sth);
+
+
+// const sth = [1, 4, 6];
+// const fruits = [553, 344, 226];
+
+// const newSth = sth.concat(...fruits);
+// console.log(newSth);
+
+const fruits = [553, 344, 226];
+
+fruits.forEach(el => console.log(el * 5));
+
+
+
+
+
 
 
 
