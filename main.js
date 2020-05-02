@@ -241,14 +241,28 @@
 
 // fruits.forEach(el => console.log(el * 5));
 
-const myFavoriteColor = ['black'];
-myFavoriteColor.unshift('yellow');
-myFavoriteColor.push('green');
+// const myFavoriteColor = ['black'];
+// myFavoriteColor.unshift('yellow');
+// myFavoriteColor.push('green');
 
-for (let i = 0; i < myFavoriteColor.length; i++) {
-    console.log(`Mój ulubiony color: ${myFavoriteColor[i].charAt(0).toUpperCase() + myFavoriteColor[i].slice(1)}`);
+// for (let i = 0; i < myFavoriteColor.length; i++) {
+//     console.log(`Mój ulubiony color: ${myFavoriteColor[i].charAt(0).toUpperCase() + myFavoriteColor[i].slice(1)}`);
 
-};
+// };
+
+
+const cars = 'mercedes, audi, bmw, mustang, nissan';
+
+const carsArr = cars.split(', ');
+
+
+console.log(carsArr.lenght > 3 ? 'Ok' : 'No, it s wrong.');
+
+
+
+
+
+
 
 
 
