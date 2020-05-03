@@ -253,12 +253,24 @@
 
 const cars = 'mercedes, audi, bmw, mustang, nissan';
 
-const carsArr = cars.split(', ');
+// const carsArr = cars.split(', ');
 
 
-console.log(carsArr.lenght > 3 ? 'Ok' : 'No, it s wrong.');
+// console.log(carsArr.length > 3 ? 'Ok' : 'No, it s wrong.');
 
+// if (carsArr.includes('audi')){
+//     carsArr.push('lambo');
+// }else{
+//     carsArr.pop();
+// };
+// console.log(carsArr);
 
+// for (let i = 0; i < carsArr.length; i++) {
+//     console.log(carsArr[i].toUpperCase());
+    
+// }
+
+//FUNKCJEEEE
 
 
 
