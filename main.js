@@ -267,10 +267,121 @@ const cars = 'mercedes, audi, bmw, mustang, nissan';
 
 // for (let i = 0; i < carsArr.length; i++) {
 //     console.log(carsArr[i].toUpperCase());
-    
+
 // }
 
 //FUNKCJEEEE
+//deklaracja funkcji
+// function test() {
+//     console.log('Czesc.');
+// };
+// test();
+
+// //wyrażenie funkcyjne
+// const newTest = function () {
+//     console.log('siemka.')
+// };
+// newTest();
+
+// function add(x, y) {
+//     //console.log(x + y);
+//     return x + y;
+// };
+
+// add(2, 3);
+
+
+// function hello (name,age){
+//     console.log(`Czesc, mam na imie ${name} i mam ${age} lat.`);
+// };
+// hello('Mikołaj',18);
+
+// const h1 = document.querySelector('h1');
+
+// h1.addEventListener('click',function (){
+//     console.log('U clicked me.')
+// })
+
+
+// const test = function(name){
+//     console.log(name);
+
+// }
+
+// test('Ania');
+
+// const test2 = (name) => {console.log(name);};
+// test2('Klaudia');
+
+// const test3 = () => {
+//     console.log('Siemka');
+// };
+// test3();
+
+// const test4 = (age,name) => console.log(age);
+// test4(321);
+
+// function add (a,b){
+//     return a + b; 
+// }
+// add(1,2)
+
+
+// const add2 = (x,y) => x * y;
+
+// const arr = ['Moday','Tuesday','Friday'];
+
+// const arr2 = arr.forEach(function(x){
+//     console.log(x);
+// });
+
+// const arr3 = arr.forEach(x=>console.log(x))
+
+
+//Welcome
+
+// const hello = (name = 'użytkowniku') => `Witaj ${name}, jak sie masz?`;
+// console.log(hello('Adam'));
+
+// const add = (x = 1, y = 0) => x + y;
+// console.log(add(1, 3));
+
+// const arr = ['green', 'red', 'blue'];
+// console.log(...arr);
+
+// function multiply(num) {
+//     return num * 2;
+// }
+
+// function numbers(x, y, ...z) {
+//     console.log(...z);
+//     console.log(z.map(multiply))
+// };
+
+// numbers(30, 4, 3, 2, 5, 6, 7, 23);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
