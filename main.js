@@ -400,13 +400,92 @@ const cars = 'mercedes, audi, bmw, mustang, nissan';
 
 // Work with function
 
-const $score = (x,y) => console.log(x+y);
+// let $score; 
+// const add = (x,y) => {$score = x+y;
 
-$score(2,5);
+// if ($score % 2 === 0){
+//     marina();
+// }else{
+//     nomarina();
+// }
+// }
+// function marina(){
+//     console.log(`Liczba ${$score} jest parzysta.`)
+// }
 
-function marina{
-    $score
+
+// function nomarina(){
+//     console.log(`Liczba ${$score} jest nieparzysta.`)
+// }
+
+
+// let $score;
+
+// const add = (a,b) => { $score = a+b;
+
+//     if($score % 2 === 0){
+//         even();
+//     }else{
+//         odd();
+//     }
+// }
+
+// function even() {
+//     console.log(`Number ${$score} is even.`)
+// };
+// function odd() {
+//     console.log(`Number ${$score} is odd.`)
+// };
+// add(2,4);
+
+// let $celcius;
+// let $temp;
+
+// // function farenheit(x) {
+// //     $celcius = x;
+// //     $temp = x * 1.8 + 32;
+// // }
+
+// const fahrenheit = x => {
+//     $celcius = x;
+//     $temp = x * 1.8 + 32;
+// };
+
+
+// fahrenheit(34);
+// console.log(`${$celcius} stopni celsjusza to ${$temp} stopni farenheita.`);
+
+const num = 10;
+let numbers = [];
+for (let i = 0; i < num; i++) {
+    numbers.push(i);
+
 }
+
+const one = number => {
+
+    if (number % 3 === 0 && number !== 0) {
+        console.log(`${number} is divisible for 3.`);
+    } else {
+        console.log(`${number} isn't divisible for 3.`);
+    };
+};
+
+
+const newNumbers = numbers.forEach(one);
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
