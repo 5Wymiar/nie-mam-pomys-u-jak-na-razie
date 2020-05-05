@@ -361,32 +361,62 @@ const cars = 'mercedes, audi, bmw, mustang, nissan';
 // numbers(30, 4, 3, 2, 5, 6, 7, 23);
 
 
-const $name = 'Ania';
+// const $name = 'Ania';
 
-function show() {
-    const $name = 'Adam';
-    let age = 23;
-    console.log(`My name is - ${$name}.`)
-    console.log(age)
+// function show() {
+//     const $name = 'Adam';
+//     let age = 23;
+//     console.log(`My name is - ${$name}.`)
+//     console.log(age)
 
 
-function showTwo (){
-    console.log(`showTwo name = ${$name}.`);
-    age = 20;
-    console.log(`Age = ${age}`);
-    
+// function showTwo (){
+//     console.log(`showTwo name = ${$name}.`);
+//     age = 20;
+//     console.log(`Age = ${age}`);
+
+// }
+// showTwo();
+
+// function showThree (){
+//     console.log(`showThree name = ${$name}.`);
+//     age = 21;
+//     console.log(`Age = ${age}`);
+
+// }
+// showThree();
+// }
+// show();
+
+// const numbers = [2, 23, 'nothing'];
+// const names = ['Adam', 'Monika', 'Artur', 'Dariusz'];
+
+// const newNum = numbers.forEach (el =>  console.log(`${el} to powers equals: ${el ** 2}`)) ;
+
+
+// const showBigNames = name => name.toUpperCase();
+// const bigNames = names.map(showBigNames);
+// console.log(`Lista imion w tablicy to: ${bigNames.join(', ')}`);
+
+// Work with function
+
+const $score = (x,y) => console.log(x+y);
+
+$score(2,5);
+
+function marina{
+    $score
 }
-showTwo();
 
-function showThree (){
-    console.log(`showThree name = ${$name}.`);
-    age = 21;
-    console.log(`Age = ${age}`);
-    
-}
-showThree();
-}
-show();
+
+
+
+
+
+
+
+
+
 
 
 
