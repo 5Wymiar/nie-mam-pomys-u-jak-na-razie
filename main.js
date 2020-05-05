@@ -361,10 +361,32 @@ const cars = 'mercedes, audi, bmw, mustang, nissan';
 // numbers(30, 4, 3, 2, 5, 6, 7, 23);
 
 
+const $name = 'Ania';
+
+function show() {
+    const $name = 'Adam';
+    let age = 23;
+    console.log(`My name is - ${$name}.`)
+    console.log(age)
 
 
+function showTwo (){
+    console.log(`showTwo name = ${$name}.`);
+    age = 20;
+    console.log(`Age = ${age}`);
+    
+}
+showTwo();
 
-
+function showThree (){
+    console.log(`showThree name = ${$name}.`);
+    age = 21;
+    console.log(`Age = ${age}`);
+    
+}
+showThree();
+}
+show();
 
 
 
