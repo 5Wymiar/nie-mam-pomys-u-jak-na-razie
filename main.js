@@ -455,26 +455,64 @@ const cars = 'mercedes, audi, bmw, mustang, nissan';
 // fahrenheit(34);
 // console.log(`${$celcius} stopni celsjusza to ${$temp} stopni farenheita.`);
 
-const num = 10;
-let numbers = [];
-for (let i = 0; i < num; i++) {
-    numbers.push(i);
+// const num = 10;
+// let numbers = [];
+// for (let i = 0; i < num; i++) {
+//     numbers.push(i);
 
-}
+// }
 
-const one = number => {
+// const one = number => {
 
-    if (number % 3 === 0 && number !== 0) {
-        console.log(`${number} is divisible for 3.`);
-    } else {
-        console.log(`${number} isn't divisible for 3.`);
-    };
-};
+//     if (number % 3 === 0 && number !== 0) {
+//         console.log(`${number} is divisible for 3.`);
+//     } else {
+//         console.log(`${number} isn't divisible for 3.`);
+//     };
+// };
 
 
-const newNumbers = numbers.forEach(one);
+// const newNumbers = numbers.forEach(one);
 
 //This one more repeat
+
+// const num = 10;
+// let numbers = [];
+
+// for (let i = 0; i < num; i++) {
+//     numbers.push(i);
+// }
+
+// const one = a =>  {
+//     if (a%3 ===0 && a !==0) {
+//         console.log(`${a} is divisible for 3.`);
+//     }else {
+//         console.log(`${a} isn't divisible for 3.`);
+//     }
+// }
+
+// const newNum = numbers.forEach(one);
+
+//Okey, I can do it bitches.
+//I remembered everythink but dont understood everythink it funny
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
