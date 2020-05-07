@@ -496,7 +496,7 @@ const cars = 'mercedes, audi, bmw, mustang, nissan';
 //Okey, I can do it bitches.
 //I remembered everythink but dont understood everythink it funny
 
-
+// hello, new day!
 
 
 
