@@ -498,9 +498,26 @@ const cars = 'mercedes, audi, bmw, mustang, nissan';
 
 // hello, new day!
 
+// const num = 10;
+// let numbers = [];
 
+// for (let i = 0; i < num; i++) {
+//     numbers.push(i);
+// }
 
+// const one = a => {
+//     if(a%3 ===0 && a!==0){
+//         console.log(`${a} is divisible for 3.`);
+//             }else{
+//         console.log(`${a} isn't divisible for 3.`);    
+//     }
+// }
 
+// const newNum = numbers.forEach(one);
+
+//okey, i remebered & know how its working now.
+
+//Api, hoisting
 
 
 
