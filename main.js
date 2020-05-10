@@ -519,6 +519,8 @@ const cars = 'mercedes, audi, bmw, mustang, nissan';
 
 //Api, hoisting
 
+//Overment watching film about function compose and Scope, next.js, command line oxlinux and api.
+
 
 
 
