@@ -523,12 +523,15 @@ const cars = 'mercedes, audi, bmw, mustang, nissan';
 //Hello guys new commit 
 //Overment Shared State 
 
+//Repeting works with tables
+
+// const works = ['picking', 'packing'];
+// works.unshift('returns', 'h&m', 'cleaner');
+// console.log(works);
 
 
-
-
-
-
+// const duble = x => x**2;
+// duble();
 
 
 
