@@ -534,6 +534,23 @@ const cars = 'mercedes, audi, bmw, mustang, nissan';
 // duble();
 
 
+const num = [1, 2, 3, 4, 5, 6, 7, 8];
+let solid = true;
+let select;
+
+for (let i = 0; i < num.length; i++) {
+    select = i;
+    }
+
+    if(select%2===0){
+        console.log(`${select} jest podzielna przez 2.`)
+    }else{
+        console.log(`${select} nie jest podzielna przez 2.`)
+    }
+    
+  
+
+
 
 
 
